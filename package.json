@@ -1,0 +1,17 @@
+{
+  "name": "club_cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --platform=node && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "esbuild": "^0.23.0",
+    "express": "^4.19.2",
+    "typescript": "^5.5.3"
+  }
+}
